@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>World Travel</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/header_logo.png" />
+    </header>
+    <ul class="nav">
+        <li>
+            <a href="Index.html" class="active">Strona główna</a>
+        </li>
+        <li>
+            <a href="oferty.html">Oferty</a>
+        </li>
+        <li>
+            <a href="minute.html">Last Minute</a>
+        </li>
+        <li>
+            <a href="onas.html">O nas</a>
+        </li>
+        <li>
+            <a href="kontakt.html">Kontakt</a>
+        </li>
+    </ul>
+    <main>
+        <a href="oferty.html"><img class="background-img" src="./images/TłoMol.jpg" alt="Zdjęcie zachęcające"></a>
+        <section class="width100">
+            <form class="form right">
+                <h4 class="description">Znajdź swoje wakacje marzeń!</h4>
+                <div class="form-group">
+                    <label for="Od">Od</label>
+                    <input type="date" name="Od" />
+                </div>
+                <div class="form-group">
+                    <label for="Do">Do</label>
+                    <input type="date" name="Do" />
+                </div>
+                <div class="form-group">
+                    <label for="Osoby dorosłe">Osoby dorosłe</label>
+                    <input type="number" name="Osoby dorosłe" value="0" />
+                </div>
+                <div class="form-group">
+                    <label for="Dzieci">Dzieci</label>
+                    <input type="number" name="Dzieci" value="0" />
+                </div>
+                <div class="form-group">
+                    <label for="Kierunek wakacji">Kierunek wakacji</label>
+                    <select name="Miejsce">
+                        <option selected>Portugalia</option>
+                        <option>Franca</option>
+                        <option>Hiszpania</option>
+                        <option>Chorwacja</option>
+                        <option>Włochy</option>
+                    </select>
+                </div>  
+                <div class="form-group">                   
+                    <input type="submit" value="Wyślij formularz" />
+                </div>
+                <div class="form-group">                   
+                    <input type="reset" value="Wyczyść dane" />
+                </div>              
+            </form>
+        </section>
+        <div class="center hot-offer">
+            <h1>Gorące oferty</h1>
+            <div class="panels">
+                <a href="majorka.html" class="panel">
+                    <div>
+                        <img src="./images/Majorka.jpg">
+                        <p>Majorka</p>
+                    </div>
+                </a>
+                <a href="barcelona.html" class="panel">
+                    <div>
+                        <img src="./images/Barcelona.jpg">
+                        <p>Barcelona</p>
+                    </div>
+                </a>
+                <a href="lizbona.html" class="panel">
+                    <div>
+                        <img src="./images/Lizbona.jpg">
+                        <p>Lizbona</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Wszelkie prawa zastrzeżone © World Travel</p>
+    </footer>
+</body>
+
+</html>

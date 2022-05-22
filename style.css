@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 320px;
+}
+header {
+	position: fixed;
+	width:100%;
+	background-color: rgb(0, 40, 77);
+	height: 70px;
+    z-index: 10;
+    top: 0;	
+}
+main {
+    margin-top: 70px;
+}
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(0, 40, 77);
+    color: white;
+    line-height: 50px;
+}
+input {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.width100 {
+    width: 100%;
+    position: relative;
+}
+.center {
+    display: table;
+    margin: 0 auto;
+}
+.right {
+    right: 15%;
+    position: absolute;
+}
+.logo {    
+	height: 50px;
+	margin: 10px;
+    position: fixed;
+}
+.nav {
+	list-style-type: none;
+	display: flex;   
+	margin: 0;	
+    left: auto;
+	right: 20px;	
+	padding-inline-start: 0px;	
+    flex-direction: row;
+    top: 19px;
+    position: fixed;    
+    z-index: 11;
+}
+.nav > li {
+	margin: 2px 9px;	
+}
+.nav > li:hover {
+	transform: scale(1.03);		
+} 
+.nav > li > a {
+	text-decoration: none;
+	color: white;	
+}
+.active {
+	border-bottom: 2px solid white;
+}
+.background-img {  
+    max-width: 100%;  
+    z-index: 0;
+    position: relative;
+}
+.description {
+    margin-left: 15%;
+}
+.panels {
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+.panel {
+    box-shadow: 0px 0.2px 0.5px 0.2px black;
+    max-width: 350px;
+    margin: 5px;
+}
+.panel:hover  {
+	transform: scale(1.02);	
+	background-color: white;
+}
+.panel img {
+	max-width: 350px;	
+}
+.panel p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.form {
+    box-shadow: 0px 0px 0.5px 0.2px black;
+    margin: 20px;
+    min-height: 100px;
+    min-width: 300px;
+    padding: 20px;
+    z-index: 0;
+    background-color: white;
+}
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-group > label {
+    margin-right: 10px;
+    min-width: 120px;
+    padding-top: 3px;
+}
+.form-group > input, 
+.form-group > select {
+    border: 1px solid rgb(207, 206, 206);
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 100%;
+}
+.hot-offer {
+    margin-top: 400px;
+}
+.coupon-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.coupon {
+    border: 1px dotted #669999;
+    border-radius: 2px;
+    margin: 10px auto;
+    max-width: 400px;
+  }
+  
+.container {
+    padding: 2px 16px;
+    background-color: rgb(0, 40, 77);
+    color: white;
+}
+
+.data {
+	font-size: 15px;
+}
+
+.cena {
+	font-size: 20px;
+	background-color:rgb(255, 255, 102);
+	padding-left: 115px;
+	color: black;
+}
+
+.cenam {
+	font-size: 20px;
+	background-color: rgb(204, 0, 0);
+	padding-left: 115px;
+	color: black;
+}
+
+.promo1 {
+	color: rgb(204, 0, 0);
+}
+
+.gmap_canvas {
+	margin-top: 30px;
+}
+
+.Info {
+	display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.hr {
+    border-top: 1px solid black;
+    width: 80%;
+    display: table;
+    margin: 20px auto;
+}
+
+.small {
+    height: 50px;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .nav {      
+        font-size: 12px;
+        left: auto;
+        right: auto;
+    }
+    .logo {
+        display: none;
+    }
+    .panel {
+        display: table;
+        margin: 5px auto;
+        padding-bottom: 5px;;
+    }
+}
