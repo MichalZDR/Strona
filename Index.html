@@ -8,6 +8,7 @@
     <link rel="icon" href="./images/logo.png">
     <title>World Travel</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="https://www.meteoprog.ua/css/winformer.min.css?id=100">
 </head>
 
 <body>
@@ -33,77 +34,86 @@
     </ul>
     <main>
         <a href="oferty.html"><img class="background-img" src="./images/TłoMol.jpg" alt="Zdjęcie zachęcające"></a>
-        <section class="width100">
-            <form class="form right">
-                <h4 class="description">Znajdź swoje wakacje marzeń!</h4>
-                <div class="form-group">
-                    <label for="Od">Od</label>
-                    <input type="date" name="Od" />
-                </div>
-                <div class="form-group">
-                    <label for="Do">Do</label>
-                    <input type="date" name="Do" />
-                </div>
-                <div class="form-group">
-                    <label for="Osoby dorosłe">Osoby dorosłe</label>
-                    <input type="number" name="Osoby dorosłe" value="0" />
-                </div>
-                <div class="form-group">
-                    <label for="Dzieci">Dzieci</label>
-                    <input type="number" name="Dzieci" value="0" />
-                </div>
-                <div class="form-group">
-                    <label for="Kierunek wakacji">Kierunek wakacji</label>
-                    <select name="Miejsce">
-                        <option selected>Portugalia</option>
-                        <option>Franca</option>
-                        <option>Hiszpania</option>
-                        <option>Chorwacja</option>
-                        <option>Włochy</option>
-                    </select>
-                </div>  
-                <div class="form-group">                   
-                    <input type="submit" value="Wyślij formularz" />
-                </div>
-                <div class="form-group">                   
-                    <input type="reset" value="Wyczyść dane" />
-                </div>              
-            </form>
-        </section>
-		<link type="text/css" rel="stylesheet" href="https://www.meteoprog.ua/css/winformer.min.css?id=100">
-
-    <div class="meteoprog-informer" style="width: 290px" data-params='{"city_ids":"776,2113,795,2072","domain":"https://www.meteoprog.pl/pl/","id":"628d44772bac92ed228b4a20","lang":"pl"}'>
-
-      
-        <a title="Pogoda w mieście Barcelona" target="_blank" href="https://www.meteoprog.pl/pl/weather/Barcelonakataloniya/">
-          <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif" alt="Loading...">
-        </a>
-        <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Barcelonakataloniya/">Pogoda przez 2 tygodnie</a>
-      
-        <a title="Pogoda w mieście Dubrownik" target="_blank" href="https://www.meteoprog.pl/pl/weather/Dubrovnic/">
-          <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif" alt="Loading...">
-        </a>
-        <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Dubrovnic/">Pogoda przez 2 tygodnie</a>
-      
-        <a title="Pogoda w mieście Wenecja" target="_blank" href="https://www.meteoprog.pl/pl/weather/Venice/">
-          <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif" alt="Loading...">
-        </a>
-        <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Venice/">Pogoda przez 2 tygodnie</a>
-      
-        <a title="Pogoda w mieście Paryż" target="_blank" href="https://www.meteoprog.pl/pl/weather/Paris/">
-          <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif" alt="Loading...">
-        </a>
-        <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Paris/">Pogoda przez 2 tygodnie</a>
-      
-
-      <a class="constructor__metlink" target="_blank" href="https://www.meteoprog.pl/pl/">
-        <img style="display: block; margin: 0 auto;" alt="Meteoprog" src="https://www.meteoprog.ua/images/meteoprog-inf.png">
-      </a>
-    </div>
-    <script type="text/javascript" src="https://www.meteoprog.ua/js/winformer.min.js?id=100"></script>
-        <div class="center hot-offer">
-            <h1>Gorące oferty</h1>
+        <section class="center">
             <div class="panels">
+                <form class="form panel">
+                    <h4 class="description">Znajdź swoje wakacje marzeń!</h4>
+                    <div class="form-group">
+                        <label for="Od">Od</label>
+                        <input type="date" name="Od" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Do">Do</label>
+                        <input type="date" name="Do" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Osoby dorosłe">Osoby dorosłe</label>
+                        <input type="number" name="Osoby dorosłe" value="0" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Dzieci">Dzieci</label>
+                        <input type="number" name="Dzieci" value="0" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Kierunek wakacji">Kierunek wakacji</label>
+                        <select name="Miejsce">
+                            <option selected>Portugalia</option>
+                            <option>Franca</option>
+                            <option>Hiszpania</option>
+                            <option>Chorwacja</option>
+                            <option>Włochy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Wyślij formularz" />
+                    </div>
+                    <div class="form-group">
+                        <input type="reset" value="Wyczyść dane" />
+                    </div>
+                </form>
+                <div class="meteoprog-informer panel" data-params='{"city_ids":"776,2113,795,2072","domain":"https://www.meteoprog.pl/pl/","id":"628d44772bac92ed228b4a20","lang":"pl"}'>
+    
+                    <a title="Pogoda w mieście Barcelona" target="_blank"
+                        href="https://www.meteoprog.pl/pl/weather/Barcelonakataloniya/">
+                        <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif"
+                            alt="Loading...">
+                    </a>
+                    <a target="_blank" class="constructor__met2wlink"
+                        href="https://www.meteoprog.pl/pl/review/Barcelonakataloniya/">Pogoda przez 2 tygodnie</a>
+        
+                    <a title="Pogoda w mieście Dubrownik" target="_blank" href="https://www.meteoprog.pl/pl/weather/Dubrovnic/">
+                        <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif"
+                            alt="Loading...">
+                    </a>
+                    <a target="_blank" class="constructor__met2wlink"
+                        href="https://www.meteoprog.pl/pl/review/Dubrovnic/">Pogoda przez 2 tygodnie</a>
+        
+                    <a title="Pogoda w mieście Wenecja" target="_blank" href="https://www.meteoprog.pl/pl/weather/Venice/">
+                        <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif"
+                            alt="Loading...">
+                    </a>
+                    <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Venice/">Pogoda
+                        przez 2 tygodnie</a>
+        
+                    <a title="Pogoda w mieście Paryż" target="_blank" href="https://www.meteoprog.pl/pl/weather/Paris/">
+                        <img style="margin: 0 auto; display: block" src="https://www.meteoprog.ua/images/preloader.gif"
+                            alt="Loading...">
+                    </a>
+                    <a target="_blank" class="constructor__met2wlink" href="https://www.meteoprog.pl/pl/review/Paris/">Pogoda
+                        przez 2 tygodnie</a>
+        
+                    <a class="constructor__metlink" target="_blank" href="https://www.meteoprog.pl/pl/">
+                        <img style="display: block; margin: 0 auto;" alt="Meteoprog"
+                            src="https://www.meteoprog.ua/images/meteoprog-inf.png">
+                    </a>
+                </div>
+            </div>           
+        </section>        
+
+             
+        <div class="center">
+            <h1>Gorące oferty</h1>
+            <div class="panels hot-offer">
                 <a href="majorka.html" class="panel">
                     <div>
                         <img src="./images/Majorka.jpg">
@@ -124,24 +134,24 @@
                 </a>
             </div>
         </div>
-		<div class="Informacje">
-			<div class="center">
-				<img class="small" src="./images/phone.png">
-			<h3>Telefon <a href="tel:+48 123 456 789">+48 123 456 789</a></h3>
-		</div>
-		<div class="center">
-			<img class="small" src="./images/mail.png">
-			<h3>Adres: <a href="mailto:wt@hmail.com">wt@gmail.com</a></h3>
-		</div>
-		<div class="center">
-			<img class="small" src="./images/zegar.png">
-			<h3>PN-PT: 9:00 - 21:00</h3>
-		</div>
-		</div>
+        <div class="info-footer">
+            <div class="center">
+                <img class="small" src="./images/phone.png">
+                <h3>Telefon <a href="tel:+48 123 456 789">+48 123 456 789</a></h3>
+            </div>
+            <div class="center">
+                <img class="small" src="./images/mail.png">
+                <h3>Adres: <a href="mailto:wt@hmail.com">wt@gmail.com</a></h3>
+            </div>
+            <div class="center">
+                <img class="small" src="./images/zegar.png">
+                <h3>PN-PT: 9:00 - 21:00</h3>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Wszelkie prawa zastrzeżone © World Travel</p>
     </footer>
+    <script type="text/javascript" src="https://www.meteoprog.ua/js/winformer.min.js?id=100"></script>
 </body>
-
 </html>
