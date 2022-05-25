@@ -195,6 +195,11 @@ a {
 .small {
     height: 50px;
     color: black;
+}
+
+.small4 {
+    height: 50px;
+    color: black;
 	padding-left: 60px;
 }
 
@@ -203,7 +208,7 @@ a {
     flex-wrap: wrap;
     width: 100%;
 	background-color:rgb(0, 115, 153);
-	padding: 30px 0;
+	padding: 10px 0;
 	position: center;
 }
 
